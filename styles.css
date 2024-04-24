@@ -106,18 +106,26 @@ border-bottom: 1px solid black;
     align-items: flex-start;
     gap: 20px;
 }
-html,
-body {
-  width: 100%;
-  height: 100%;
-  margin: 0;
-  padding: 0;
+.Link1{
+    width: 100vw;
+    height: 100vh;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
 }
-
-section {
-  width: 100vw;
-  height: 100vh;
-  overflow-y: auto;
+.Link2{
+    width: 100vw;
+    height: 100vh;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+}
+.Link3{
+    width: 100vw;
+    height: 100vh;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
 }
 
 h1 {
